@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Google.Common.Geometry;
+using Google.common.Geometry;
 using Google.Protobuf.Collections;
 using POGOProtos.Data;
 using POGOProtos.Data.Player;
