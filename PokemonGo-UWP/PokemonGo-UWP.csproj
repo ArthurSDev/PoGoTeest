@@ -138,7 +138,6 @@
     <Content Include="Assets\Audio\EncounterPokemon.mp3" />
     <Content Include="Assets\Audio\Gameplay.mp3" />
     <Content Include="Assets\Audio\pokemon_found_ding.wav" />
-    <Content Include="Assets\Backgrounds\sky_day.png" />
     <Content Include="Assets\Backgrounds\details_type_bg_bug.png" />
     <Content Include="Assets\Backgrounds\details_type_bg_default.png" />
     <Content Include="Assets\Backgrounds\details_type_bg_dragon.png" />
@@ -159,7 +158,6 @@
     <Content Include="Assets\Backgrounds\Park.png" />
     <Content Include="Assets\Backgrounds\Parkscene_Background.png" />
     <Content Include="Assets\Backgrounds\Parkscene_Background_Night.png" />
-    <Content Include="Assets\Backgrounds\sky_night.png" />
     <Content Include="Assets\Backgrounds\ui_bg_blue_02.png" />
     <Content Include="Assets\Backgrounds\ui_bg_green.png" />
     <Content Include="Assets\Backgrounds\ui_bg_green_02.png" />
@@ -168,18 +166,16 @@
     <Content Include="Assets\Backgrounds\ui_bg_gym_resolve.png" />
     <Content Include="Assets\Backgrounds\ui_bg_purple.png" />
     <Content Include="Assets\Backgrounds\ui_bg_purple_02.png" />
-    <Content Include="Assets\Backgrounds\ui_bg_recentcatch.png" />
     <Content Include="Assets\Backgrounds\ui_settings_bg.png" />
     <Content Include="Assets\Buttons\btn_action_menu.png" />
-    <Content Include="Assets\Buttons\btn_attack.png" />
     <Content Include="Assets\Buttons\btn_back_normal_dark.png" />
-    <Content Include="Assets\Buttons\btn_claim.png" />
     <Content Include="Assets\Buttons\btn_close.png" />
     <Content Include="Assets\Buttons\btn_close_dark.png" />
     <Content Include="Assets\Buttons\btn_close_normal.png" />
     <Content Include="Assets\Buttons\btn_close_normal_dark.png" />
     <Content Include="Assets\Buttons\btn_empty.png" />
-    <Content Include="Assets\Buttons\btn_go.png" />
+    <Content Include="Assets\Buttons\btn_incubator.png" />
+    <Content Include="Assets\Buttons\btn_incubator_dark.png" />
     <Content Include="Assets\Buttons\btn_items.png" />
     <Content Include="Assets\Buttons\btn_items_catch.png" />
     <Content Include="Assets\Buttons\btn_master.png" />
@@ -214,7 +210,6 @@
     <Content Include="Assets\Candy\Water.png" />
     <Content Include="Assets\Icons\circle_255_filled_01.png" />
     <Content Include="Assets\Icons\CompassIcon.png" />
-    <Content Include="Assets\Icons\crown.png" />
     <Content Include="Assets\Icons\Footprint_Far.png" />
     <Content Include="Assets\Icons\Footprint_Mid.png" />
     <Content Include="Assets\Icons\Footprint_Near.png" />
@@ -223,20 +218,14 @@
     <Content Include="Assets\Icons\hint_gym_neutral.png" />
     <Content Include="Assets\Icons\hint_gym_red.png" />
     <Content Include="Assets\Icons\hint_gym_yellow.png" />
-    <Content Include="Assets\Icons\ic_appraise.png" />
-    <Content Include="Assets\Icons\ic_arena_blue.png" />
-    <Content Include="Assets\Icons\ic_arena_red.png" />
-    <Content Include="Assets\Icons\ic_arena_yellow.png" />
-    <Content Include="Assets\Icons\ic_buddy.png" />
     <Content Include="Assets\Icons\ic_candy_light.png" />
     <Content Include="Assets\Icons\ic_combat.png" />
     <Content Include="Assets\Icons\ic_date.png" />
     <Content Include="Assets\Icons\ic_fav.png" />
+    <Content Include="Assets\Icons\ic_fav_light.png" />
     <Content Include="Assets\Icons\ic_health.png" />
-    <Content Include="Assets\Icons\ic_incubator.png" />
     <Content Include="Assets\Icons\ic_name.png" />
     <Content Include="Assets\Icons\ic_number.png" />
-    <Content Include="Assets\Icons\ic_store.png" />
     <Content Include="Assets\Icons\pokestop_far.png" />
     <Content Include="Assets\Icons\pokestop_far_inactive.png" />
     <Content Include="Assets\Icons\pokestop_far_inactive_lured.png" />
@@ -322,11 +311,6 @@
     <Content Include="Assets\LiveTiles\Transparent\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\LiveTiles\Transparent\Wide310x150Logo.scale-400.png" />
     <Content Include="Assets\Square44x44Logo.png" />
-    <Content Include="Assets\UI\bush.png" />
-    <Content Include="Assets\Teams\gym_base_blue.png" />
-    <Content Include="Assets\Teams\gym_base_empty.png" />
-    <Content Include="Assets\Teams\gym_base_red.png" />
-    <Content Include="Assets\Teams\gym_base_yellow.png" />
     <Content Include="Assets\UI\night_sky_texture_by_amdillon.jpg" />
     <Content Include="Assets\Pokemons\1.png" />
     <Content Include="Assets\Pokemons\10.png" />
@@ -479,6 +463,7 @@
     <Content Include="Assets\Pokemons\97.png" />
     <Content Include="Assets\Pokemons\98.png" />
     <Content Include="Assets\Pokemons\99.png" />
+    <Content Include="Assets\Pokemons\Egg.png" />
     <Content Include="Assets\Teams\instinct.png" />
     <Content Include="Assets\Teams\mystic.png" />
     <Content Include="Assets\Teams\no-team.png" />
@@ -499,7 +484,6 @@
     <Content Include="Assets\Fonts\Lato-Regular.ttf" />
     <Content Include="Assets\Fonts\Lato-Bold.ttf" />
     <None Include="project.json" />
-    <Content Include="Styles\NianticStyleLight.json" />
     <PRIResource Include="Strings\es-MX\Resources.resw" />
     <PRIResource Include="Strings\es-MX\PokemonTypes.resw" />
     <PRIResource Include="Strings\es-MX\PokemonMoves.resw" />
@@ -746,24 +730,17 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\ArcProgressBar.cs" />
     <Compile Include="Controls\MessageDialog\PoGoMessageDialog.xaml.cs">
       <DependentUpon>PoGoMessageDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\MessageDialog\StepperMessageDialog.xaml.cs">
       <DependentUpon>StepperMessageDialog.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\MessageDialog\TextboxMessageDialog.xaml.cs">
-      <DependentUpon>TextboxMessageDialog.xaml</DependentUpon>
+    <Compile Include="Controls\SemiCircularProgressBar.xaml.cs">
+      <DependentUpon>SemiCircularProgressBar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\CircularProgressBar.xaml.cs">
       <DependentUpon>CircularProgressBar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\OutdoorBackground.xaml.cs">
-      <DependentUpon>OutdoorBackground.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\PoGoPivotHeader.xaml.cs">
-      <DependentUpon>PoGoPivotHeader.xaml</DependentUpon>
     </Compile>
     <Compile Include="Entities\FortDataWrapper.cs" />
     <Compile Include="Entities\IMapPokemon.cs" />
@@ -775,7 +752,6 @@
     <Compile Include="Entities\ObservableCollectionPlus.cs" />
     <Compile Include="Entities\ItemDataWrapper.cs" />
     <Compile Include="Entities\PokemonDataWrapper.cs" />
-    <Compile Include="Entities\PokemonModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\Achievements\AchievementValueAttribute.cs" />
     <Compile Include="Utils\Achievements\BronzeAttribute.cs" />
@@ -784,7 +760,6 @@
     <Compile Include="Utils\Achievements\GoldAttribute.cs" />
     <Compile Include="Utils\Achievements\AchievementType.cs" />
     <Compile Include="Utils\ApplicationKeys.cs" />
-    <Compile Include="Utils\Extensions\IEnumerablePokemonExtensions.cs" />
     <Compile Include="Utils\Game\DataTemplateSelectors.cs" />
     <Compile Include="Utils\Game\FortDataStatus.cs" />
     <Compile Include="Entities\VersionInfo.cs" />
@@ -796,16 +771,12 @@
     <Compile Include="Utils\Helpers\GeoHelper.cs" />
     <Compile Include="Utils\Helpers\IStorageHelper.cs" />
     <Compile Include="Utils\Helpers\LiveTileHelper.cs" />
-    <Compile Include="Utils\Helpers\LocationServiceHelper.cs" />
     <Compile Include="Utils\Helpers\MapOrientationModes.cs" />
     <Compile Include="Utils\Helpers\LiveTileModes.cs" />
     <Compile Include="Utils\Helpers\LocalCacheHelper.cs" />
-    <Compile Include="Utils\Helpers\MapStyleHelpers.cs" />
-    <Compile Include="Utils\Helpers\NavigationModels.cs" />
     <Compile Include="Utils\Helpers\ProximityHelper.cs" />
     <Compile Include="Utils\Helpers\ProtobufJsonNetConverter.cs" />
     <Compile Include="Utils\Helpers\StorageHelper.cs" />
-    <Compile Include="Utils\Signature\DeviceInfoBase.cs" />
     <Compile Include="Utils\Signature\DeviceInfos.cs" />
     <Compile Include="Utils\Helpers\ExceptionHandler.cs" />
     <Compile Include="Utils\GameClient.cs" />
@@ -830,18 +801,14 @@
     <Compile Include="ViewModels\GameMapPageViewModel.cs" />
     <Compile Include="ViewModels\AchievementDetailPageViewModel.cs" />
     <Compile Include="ViewModels\PlayerProfileViewModel.cs" />
-    <Compile Include="ViewModels\PokedexDetailViewModel.cs" />
     <Compile Include="ViewModels\PokedexPageViewModel.cs" />
+    <Compile Include="ViewModels\PokemonDetailsPageViewModel.cs" />
     <Compile Include="ViewModels\ItemsInventoryPageViewModel.cs" />
-    <Compile Include="ViewModels\PokemonDetailPageViewModel.cs" />
     <Compile Include="ViewModels\PokemonInventoryPageViewModel.cs" />
     <Compile Include="ViewModels\SettingsPageViewModel.cs" />
     <Compile Include="ViewModels\LoginPageViewModel.cs" />
     <Compile Include="ViewModels\SearchPokeStopPageViewModel.cs" />
-    <Compile Include="Views\Item\ItemUseOnPokemonPage.xaml.cs">
-      <DependentUpon>ItemUseOnPokemonPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Pokemon\EggDetailPage.xaml.cs">
+    <Compile Include="Views\EggDetailPage.xaml.cs">
       <DependentUpon>EggDetailPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\AchievementDetailPage.xaml.cs">
@@ -853,38 +820,17 @@
     <Compile Include="Views\PlayerProfilePage.xaml.cs">
       <DependentUpon>PlayerProfilePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\PokedexDetailPage.xaml.cs">
-      <DependentUpon>PokedexDetailPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\PokedexPage.xaml.cs">
       <DependentUpon>PokedexPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Item\ItemsInventoryPage.xaml.cs">
-      <DependentUpon>ItemsInventoryPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Pokemon\EggDetailControl.xaml.cs">
-      <DependentUpon>EggDetailControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Pokemon\EggInventoryControl.xaml.cs">
-      <DependentUpon>EggInventoryControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Pokemon\IncubatorSelectionOverlayControl.xaml.cs">
-      <DependentUpon>IncubatorSelectionOverlayControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Pokemon\PokemonDetailControl.xaml.cs">
-      <DependentUpon>PokemonDetailControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Pokemon\PokemonDetailPage.xaml.cs">
+    <Compile Include="Views\PokemonDetailPage.xaml.cs">
       <DependentUpon>PokemonDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Pokemon\PokemonInventoryControl.xaml.cs">
-      <DependentUpon>PokemonInventoryControl.xaml</DependentUpon>
+    <Compile Include="Views\ItemsInventoryPage.xaml.cs">
+      <DependentUpon>ItemsInventoryPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Pokemon\PokemonInventoryPage.xaml.cs">
+    <Compile Include="Views\PokemonInventoryPage.xaml.cs">
       <DependentUpon>PokemonInventoryPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Pokemon\SortingMenuOverlayControl.xaml.cs">
-      <DependentUpon>SortingMenuOverlayControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
@@ -946,19 +892,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Controls\MessageDialog\TextboxMessageDialog.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Controls\SemiCircularProgressBar.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Controls\CircularProgressBar.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Controls\OutdoorBackground.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Controls\PoGoPivotHeader.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -967,11 +905,7 @@
       <Generator>MSBuild:Compile</Generator>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Page>
-    <Page Include="Views\Item\ItemUseOnPokemonPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Pokemon\EggDetailPage.xaml">
+    <Page Include="Views\EggDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -987,47 +921,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\PokedexDetailPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Views\PokedexPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\Item\ItemsInventoryPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\Pokemon\EggDetailControl.xaml">
+    <Page Include="Views\PokemonDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Pokemon\EggInventoryControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Pokemon\IncubatorSelectionOverlayControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Pokemon\PokemonDetailControl.xaml">
+    <Page Include="Views\ItemsInventoryPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\Pokemon\PokemonDetailPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\Pokemon\PokemonInventoryControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Pokemon\PokemonInventoryPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\Pokemon\SortingMenuOverlayControl.xaml">
+    <Page Include="Views\PokemonInventoryPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
